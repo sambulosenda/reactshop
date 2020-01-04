@@ -6,7 +6,7 @@ const Nav = () => (
             <a>Sell</a>
         </Link>
         <Link href="/index">
-            <a>Index</a>
+            <a>Home</a>
         </Link>
     </div>
 )

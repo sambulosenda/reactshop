@@ -9,5 +9,4 @@ const CloseButton = styled.button`
   z-index: 2;
   right: 0;
 `;
-
 export default CloseButton;

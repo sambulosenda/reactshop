@@ -5,8 +5,10 @@ class Myapp extends App {
         const { Component } = this.props;
         return (
             <Container>
-                <Page/>
+                <Page>
                 <Component />
+                </Page>
+             
             </Container>
         )
     }

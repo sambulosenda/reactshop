@@ -24,15 +24,13 @@ injectGlobal `
  a{
    text-decoration: none;
    color: black;
- }
- 
- 
- `;
+ }`;
 
 const theme = {
     red: '#FF0000',
     black: '#393939',
     grey: '#3A3A3A',
+    white: '#ffffff',
     lightgrey: '#E1E1E1',
     offWhite: '#EDEDED',
     maxWidth: '1000px',
@@ -46,7 +44,7 @@ const theme = {
 
   const Inner = styled.div`
     max-width: ${props => props.theme.maxWidth};
-    background: ${props => props.theme.red};
+    background: ${props => props.theme.white};
     margin: 0 auto;
     padding: 1rem;
   `;

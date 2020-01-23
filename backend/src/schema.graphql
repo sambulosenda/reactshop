@@ -1,0 +1,8 @@
+type User {
+    id: ID!,
+    Name: String!
+}
+
+type Mutation {
+
+}
